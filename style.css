@@ -9,6 +9,7 @@
 .header {
     background-image: url(/images/banner/banner3.png);
     background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -22,7 +23,7 @@
     color: #FFFFFF;
 }
 
-.header-primary {
+.heading-primary {
     font-weight: 700;
     font-size: 65px;
     line-height: 76px;
@@ -41,4 +42,37 @@
     font-weight: 600;
     font-size: 20px;
     color: #005FAC;
+}
+
+/* my-falure section style here */
+.my-failure {
+    max-width: 1070px;
+    margin: 130px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 87px;
+}
+
+.heading-secondary {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.failure-description {
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.failure-list {
+    list-style: none;
+    color: #444343;
+}
+
+.failure-list li {
+    margin-bottom: 10px;
 }
