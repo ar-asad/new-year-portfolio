@@ -5,6 +5,7 @@
     font-size: 16px;
 }
 
+
 /* header's banner style here */
 .header {
     background-image: url(/images/banner/banner3.png);
@@ -35,7 +36,7 @@
     margin-bottom: 28px;
 }
 
-.header-btn {
+.btn-primary {
     padding: 17px 34px;
     border: none;
     border-radius: 5px;
@@ -43,6 +44,7 @@
     font-size: 20px;
     color: #005FAC;
 }
+
 
 /* my-falure section style here */
 .my-failure {
@@ -76,6 +78,7 @@
 .failure-list li {
     margin-bottom: 10px;
 }
+
 
 /* my-plans section style here */
 .my-plans {
@@ -115,4 +118,27 @@
     font-weight: 500;
     font-size: 25px;
     color: #737272;
+}
+
+/* Positive mind section style here */
+.positive-mind {
+    max-width: 1140px;
+    height: 300px;
+    margin: 130px auto;
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(images/watch.png);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.text-container {
+    width: 40%;
+    /* text-align: left; */
+    margin-left: 70px;
+}
+
+.heading-secondary-double {
+    text-align: left;
+    color: #FFFFFF;
 }
