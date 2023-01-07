@@ -3,7 +3,7 @@
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #FFFFFF;
+    /* color: #FFFFFF; */
 }
 
 
@@ -72,13 +72,9 @@
     margin-bottom: 16px;
 }
 
-.failure-list {
-    list-style: none;
-    color: #444343;
-}
-
 .failure-list li {
     margin-bottom: 10px;
+    color: #444343;
 }
 
 
@@ -120,6 +116,54 @@
     font-weight: 500;
     font-size: 25px;
     color: #737272;
+}
+
+
+/*Future plan section style here  */
+.future-goal {
+    max-width: 1140px;
+    margin: 130px auto;
+}
+
+.future-goal-heading {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 40px;
+}
+
+.card-container {
+    display: flex;
+    gap: 85px;
+}
+
+.card {
+    width: 50%;
+    box-shadow: 0 22px 40px rgba(0, 0, 0, 0.324);
+    padding: 32px;
+    border-radius: 5px;
+}
+
+.card-heading {
+    margin-bottom: 32px;
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.card-heading__intro {
+    font-size: 20px;
+    color: #005FAC;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+.card-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
 }
 
 /* Positive mind section style here */
@@ -175,18 +219,18 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
+    color: #FFFFFF;
 }
 
 .future-container p {
     margin-bottom: 24px;
+    color: #FFFFFF;
 }
 
 .social-icon {
     display: flex;
     gap: 17px;
 }
-
-.subscribe-container {}
 
 .subscibe-heading {
     font-weight: 600;
@@ -208,4 +252,5 @@
     background: #005FAC;
     border-radius: 8px;
     padding: 17px 34px;
+    color: #FFFFFF;
 }
