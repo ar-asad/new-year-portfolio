@@ -3,13 +3,12 @@
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    /* color: #FFFFFF; */
 }
 
 
 /* header's banner style here */
 .header {
-    background-image: url(/images/banner/banner3.png);
+    background-image: url(./images/banner/banner3.png);
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
@@ -119,7 +118,7 @@
 }
 
 
-/*Future plan section style here  */
+/*Future goal section style here  */
 .future-goal {
     max-width: 1140px;
     margin: 130px auto;
@@ -166,12 +165,13 @@
     line-height: 26px;
 }
 
+
 /* Positive mind section style here */
 .positive-mind {
     max-width: 1140px;
     height: 300px;
     margin: 130px auto;
-    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(images/watch.png);
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(./images/watch.png);
     display: flex;
     justify-content: flex-start;
     align-items: center;
