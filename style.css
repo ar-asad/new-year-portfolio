@@ -76,3 +76,43 @@
 .failure-list li {
     margin-bottom: 10px;
 }
+
+/* my-plans section style here */
+.my-plans {
+    max-width: 1140px;
+    margin: 130px auto;
+}
+
+.heading-secondary {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.plan-container {
+    display: flex;
+    gap: 85px;
+    justify-content: center;
+}
+
+.plan-img {
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.heading-tertiary {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #151414;
+
+}
+
+.plan-text {
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
